@@ -1,6 +1,7 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
+import { imageConfig } from 'astro:assets';
 ---
 
 <header>
@@ -8,9 +9,7 @@ import { SITE_TITLE } from '../consts';
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
 			<HeaderLink href="/profilcalon">Profil Calon</HeaderLink>
-			<HeaderLink href="/about">Tentang Kami</HeaderLink>
 		</div>
 		<div class="social-links">
 			<a href="https://twitter.com/superemenn" target="_blank">

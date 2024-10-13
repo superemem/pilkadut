@@ -1,8 +1,12 @@
 ---
+import HeaderLink from './HeaderLink.astro';
 const today = new Date();
 ---
 
 <footer>
+	<div class="internal-links">
+			<HeaderLink href="/about">Tentang Kami</HeaderLink>
+		</div>
 	&copy; {today.getFullYear()} emen. All rights reserved.
 	<div class="social-links">
 		<a href="https://twitter.com/superemenn" target="_blank">
