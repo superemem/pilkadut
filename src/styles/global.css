@@ -79,12 +79,14 @@ b {
 }
 a {
   color: var(--accent);
+  font-size: 15px;
 }
 a:hover {
   color: var(--accent);
 }
 p {
   margin-bottom: 1em;
+  font-size: 14px;
 }
 .prose p {
   margin-bottom: 2em;
